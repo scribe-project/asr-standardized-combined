@@ -2,10 +2,10 @@
 name = "combined_dataset"
 version = "1.0.0"
 description = "Assembles and cleans Norwegian speech corpora"
-authors = ["Phoebe Parsons <phoebe.l.t.parsons@ntnu.no>", "Pablo Ortiz <pablo.ortiz@telenor.com>", "Per Erik Solberg <per.solberg@nb.no>", "Janine Rugayan <janine.rugayan@ntnu.no>", "Xinwei Cao <xinwei.cao@ntnu.no>"]
+authors = ["Per Erik Solberg <per.solberg@nb.no>", "Pablo Ortiz <pablo.ortiz@telenor.com>", "Phoebe Parsons <phoebe.l.t.parsons@ntnu.no>", "Torbjørn Svendsen <torbjorn.svendsen@ntnu.no>", "Giampiero Salvi <giampiero.salvi@ntnu.no>"]
 readme = "README.md"
 license = "Apache-2.0"
-repository = "https://github.com/scribe-project/combined_dataset/"
+repository = "https://github.com/scribe-project/asr-standardized-combined"
 include = ["LICENCE"]
 
 [tool.poetry.dependencies]
@@ -15,6 +15,7 @@ pandas = "1.4.0"
 numpy = "1.21.0"
 lxml = "4.9.0"
 pydub = "0.25.1"
+pympi-ling = "1.70.2
 tqdm = "4.63.0"
 
 [build-system]
