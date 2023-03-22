@@ -25,8 +25,8 @@ def create_new_logger(new_logger, name):
     return new_logger
 
 def filename_to_loggingname(filename):
-    # assumption is that combined_dataset occurs 2x in path e.g. .../combined_dataset/combined_dataset/standardize/standardize_nbtale12.py
-    package_name = 'combined_dataset'
+    # assumption is that asr_standardized_combined occurs 2x in path e.g. .../asr_standardized_combined/asr_standardized_combined/standardize/standardize_nbtale12.py
+    package_name = 'asr_standardized_combined'
     # get everything after the first package name
     filename = os.path.normpath(filename)
     return '.'.join([part for part in filename[filename.index(package_name) + len(package_name):].strip('.py').split(os.sep) if part])

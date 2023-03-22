@@ -270,7 +270,7 @@ def save_csv(args, df, data_dir, filename):
 
 
 if __name__ == "__main__":
-    from combined_dataset.standardize.__init__ import create_new_logger
+    from asr_standardized_combined.standardize.__init__ import create_new_logger
 
     logger = create_new_logger(logging.getLogger(__name__), __file__)
 
