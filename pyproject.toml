@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "combined_dataset"
+version = "1.0.0"
+description = "Assembles and cleans Norwegian speech corpora"
+authors = ["Phoebe Parsons <phoebe.l.t.parsons@ntnu.no>", "Pablo Ortiz <pablo.ortiz@telenor.com>", "Per Erik Solberg <per.solberg@nb.no>", "Janine Rugayan <janine.rugayan@ntnu.no>", "Xinwei Cao <xinwei.cao@ntnu.no>"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/scribe-project/combined_dataset/"
+include = ["LICENCE"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+beautifulsoup4 = "4.11.1"
+pandas = "1.4.0"
+numpy = "1.21.0"
+lxml = "4.9.0"
+pydub = "0.25.1"
+tqdm = "4.63.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

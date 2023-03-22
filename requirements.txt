@@ -1,0 +1,6 @@
+beautifulsoup4==4.11.1
+pandas==1.4.0
+numpy==1.21.0
+lxml==4.9.0
+pydub==0.25.1
+pympi-ling==1.70.2
