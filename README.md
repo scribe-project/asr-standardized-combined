@@ -13,7 +13,7 @@ The code can be imported as a Python package or run as a CLI.
 ## Pip installation 
 
 The package has been made pip installable to make ad-hoc use of the code easier. 
-Pip installation is done by navigating to the `asr-standardized-combined` directory and running
+Pip installation is done by navigating to this directory (`asr-standardized-combined`) and running
 
 ```
 pip install .
@@ -22,7 +22,7 @@ pip install .
 Once the package is installed, the code can be used in other python files e.g.
 
 ```python
-from asr-standardized-combined import standardize_nbtale12
+from asr_standardized_combined import standardize_nbtale12
 import pandas as pd
 
 npsc_1b_bokmal = pd.read_csv('npsc_1b_bokmål.csv')

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "combined_dataset"
+name = "asr_standardized_combined"
 version = "1.0.0"
 description = "Assembles and cleans Norwegian speech corpora"
 authors = ["Per Erik Solberg <per.solberg@nb.no>", "Pablo Ortiz <pablo.ortiz@telenor.com>", "Phoebe Parsons <phoebe.l.t.parsons@ntnu.no>", "Torbjørn Svendsen <torbjorn.svendsen@ntnu.no>", "Giampiero Salvi <giampiero.salvi@ntnu.no>"]
@@ -15,7 +15,7 @@ pandas = "1.4.0"
 numpy = "1.21.0"
 lxml = "4.9.0"
 pydub = "0.25.1"
-pympi-ling = "1.70.2
+pympi-ling = "1.70.2"
 tqdm = "4.63.0"
 
 [build-system]
